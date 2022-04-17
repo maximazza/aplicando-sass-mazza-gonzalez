@@ -1,0 +1,55 @@
+@import "utilities/variables";
+@import "layout/index";
+@import "layout/media\ queries";
+@import "layout/menu";
+
+.nav{
+    background-color: $color-nav;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    display:flex;
+    justify-content:center ;
+    background-color: $color-footer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h2{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.anchofooter{
+    margin-top: 30px;
+}
+.redes{
+    display: inline-block;
+}
+.bi-facebook{
+    font-size: 23px;
+    text-align: center;
+   margin-left: 5px;
+   margin-right: 5px;
+    color: $color-logos;
+}
+.bi-whatsapp{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:$color-logos;
+}
+.bi-instagram{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: $color-logos;
+}
+main div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
